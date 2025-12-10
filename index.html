@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirection...</title>
+  <script>
+    // URL vers ton site temporaire actuel
+    const destination = "https://site-de-ton-ami.com/verifier";
+
+    // Récupère tous les paramètres du QR code (ex: id=123)
+    const params = window.location.search;
+
+    // Redirige
+    window.location.href = destination + params;
+  </script>
+</head>
+<body>
+  Redirection...
+</body>
+</html>
